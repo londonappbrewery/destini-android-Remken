@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 else
                 {
                     //T6_End
+                    mStoryTextView.setText(R.string.T6_End);
                     Toast.makeText(MainActivity.this, "T6_End", Toast.LENGTH_SHORT).show();
                     mTopButton.setVisibility(View.GONE);
                     mBottomButton.setVisibility(View.GONE);
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 else if(mStoryIndex == 2)
                 {
                     //T4_End
+                    mStoryTextView.setText(R.string.T4_End);
                     Toast.makeText(MainActivity.this, "T4_End", Toast.LENGTH_SHORT).show();
                     mTopButton.setVisibility(View.GONE);
                     mBottomButton.setVisibility(View.GONE);
@@ -67,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 else
                 {
                     //T5_End
+                    mStoryTextView.setText(R.string.T5_End);
                     mTopButton.setVisibility(View.GONE);
                     mBottomButton.setVisibility(View.GONE);
                     Toast.makeText(MainActivity.this, "T5_End", Toast.LENGTH_SHORT).show();
